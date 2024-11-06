@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ShoppingApp",
+    "scheme": "ShoppingApp",
+    "slug": "ShoppingApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.omrfrkg.ShoppingApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9160cc6a-732d-4842-89dd-baf90c816366"
+      }
+    }
+  }
+}
